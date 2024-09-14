@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "connections"
+version = "0.1.0"
+description = ""
+authors = ["Paul Prescod <paul@prescod.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+diskcache = "^5.6.3"
+litellm = "^1.45.0"
+pydantic = "^2.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
